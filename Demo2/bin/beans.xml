@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd
+	"
+
+	>
+<bean id="a1" class="com.p1.Address">
+	<property name="city" value="Pune"></property>
+	<property name="state" value="MH"></property>
+	<property name="country" value="India"></property>
+</bean>
+<bean id="adMainApp2.javar" class="com.p1.Address">
+	<property name="city" value="Mumbai"></property>
+	<property name="state" value="MH"></property>
+	<property name="country" value="India"></property>
+</bean>
+<bean id="e1" class="com.p1.Employee" autowire="byName">
+	<property name="ename" value="Sam"></property>
+	<property name="eid" value="101"></property>
+	
+</bean>
+	
+
+
+
+
+
+
+</beans>
+
+
